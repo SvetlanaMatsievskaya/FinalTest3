@@ -31,7 +31,4 @@ for (int i = 0; i < count; i++)
 ar2[i] = temp[i];
 }
 
-foreach (string s in ar2)
-{
-Console.Write(s + " ");   
-}
+PrintArray(ar2);
